@@ -1,9 +1,28 @@
-h1 {
-  font-size: 25px;
-  color: orange;
+
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Courgette', cursive;
+*/
+
+body {
+  /*font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;*/
+  font-family: 'Libre Baskerville', serif;
 }
 
 main {
   background: pink;
   height: 2000px;
+}
+
+header {
+  /*font-family: 'Nunito', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Libre Franklin', sans-serif;*/
+  /*font-family: 'Courgette', cursive;*/
+}
+
+article {
+  padding: 5%;
 }
