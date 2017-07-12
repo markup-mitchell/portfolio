@@ -1,20 +1,10 @@
-h1 {
-  font-size: 25px;
-  color: orange;
-}
-
-main {
-  background: pink;
-  height: 2000px;
-}
 
 @media only screen and (max-width: 500px) {
   main {
   background-color: lightblue;
-  width: 10vw;
+  width: 100%;
   }
   h1 {
     font-size: 5px;
   }
 }
-
