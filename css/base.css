@@ -1,4 +1,6 @@
-
+html {
+  font-size: 18px;
+}
 /*
 font-family: 'Nunito', sans-serif;
 font-family: 'Quicksand', sans-serif;
@@ -9,10 +11,27 @@ font-family: 'Courgette', cursive;
 body {
   /*font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;*/
   font-family: 'Libre Baskerville', serif;
+
+}
+
+.title {
+  color: white;
+  padding: 150px;
+  font-size: 2rem;
+}
+
+.landingSection {
+  display: flex;
+  justify-content: center;
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  background-image: url('../assets/skyBeach.jpg');
+  height: 2000px;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 main {
-  background: pink;
   height: 2000px;
 }
 
