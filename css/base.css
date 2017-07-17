@@ -5,15 +5,15 @@ html {
 }
 
 body {
-  /*height: 100vh;*/
   font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
 .title {
   font-family: 'Bevan', cursive;
-  color: white;
+  color: black;
   font-size: 10vw;
-  /*margin-top: 40vh;*/
+  transition: all 3s;
+  color: white;
 }
 
 .title * {
@@ -47,5 +47,3 @@ main {
   height: 2000px;
 }
 
-header {
-}
