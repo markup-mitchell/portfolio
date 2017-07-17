@@ -24,6 +24,7 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
+  /*transition: all 2s;*/
 }
 
 #blurb {
@@ -32,7 +33,16 @@ body {
   width: 50vw;
   margin: 2vw;
   font-size: 3.3vw;
+  /*transition: all 2s;*/
   /*background: pink;*/
 }
 
+#welcomeText:active #name p {
+  text-align: left;
+  transition: all 2s;
+}
+#welcomeText:active #blurb {
+  text-align: right;
+  transition: all 2s;
+}
 
