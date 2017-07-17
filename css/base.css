@@ -59,6 +59,6 @@ header {
   font-family: var(--displayText);
 }
 #about {
-
+  background: pink;
 }
 
