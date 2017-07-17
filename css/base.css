@@ -3,9 +3,17 @@
 html {
   font-size: 18px;
 }
+:root {
+  --displayText : "Bevan", cursive;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+main {
+  padding: 8vw;
+  font-size: 1.2rem;
 }
 
 .landingSection {
@@ -44,5 +52,13 @@ body {
 #welcomeText:active #blurb {
   text-align: right;
   transition: all 2s;
+}
+
+header {
+  font-size: 4vw;
+  font-family: var(--displayText);
+}
+#about {
+
 }
 
