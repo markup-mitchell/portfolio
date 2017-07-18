@@ -5,15 +5,26 @@ html {
 }
 :root {
   --displayText : "Bevan", cursive;
+  --about : #e9b000;
+  --portfolio : #e24e42;
+  --personal : #008f95; 
+  --contact : #eb6e80 ;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
+hr {
+  border: none;
+  color: black;
+  background-color: black;
+  height: 1px;
+  }
+
 main {
   padding: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .landingSection {
@@ -59,11 +70,22 @@ header {
   font-family: var(--displayText);
 }
 #about {
-  background: pink;
+  background: var(--about);
 }
 
 section {
   padding: 10vw;
   width: 80vw;
-  background: orange;
+}
+
+#portfolio {
+  background: var(--portfolio);
+}
+
+#personal {
+  background: var(--personal);
+}
+
+#contact {
+  background: var(--contact);
 }
