@@ -17,7 +17,7 @@ body {
   width: 100vw;
 }
 
-#name p {
+#name * {
   font-family: 'Bevan', cursive;
   font-size: 10vw;
   color: black;
