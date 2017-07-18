@@ -45,11 +45,11 @@ main {
   /*background: pink;*/
 }
 
-#welcomeText:active #name p {
+#welcomeText:hover #name p {
   text-align: left;
   transition: all 2s;
 }
-#welcomeText:active #blurb {
+#welcomeText:hover #blurb {
   text-align: right;
   transition: all 2s;
 }
