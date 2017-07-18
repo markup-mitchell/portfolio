@@ -27,16 +27,12 @@ main {
   font-size: 1rem;
 }
 
-svg { 
-  width: 30vw;
-  max-width: 200px;
-}
 .svgContainer {
   text-align: center;
   padding: 1vw;
 }
 #svg4649 {
-  height: 30vw;
+  height: 45vw;
 }
 
 .landingSection {
@@ -50,7 +46,7 @@ svg {
 
 #name p {
   font-family: 'Bevan', cursive;
-  font-size: 10vw;
+  font-size: 12vw;
   color: black;
   text-align: center;
   padding: 0;
@@ -60,7 +56,7 @@ svg {
 #blurb {
   font-family: serif;
   text-align: center;
-  width: 50vw;
+  width: 70vw;
   margin-top: 2vw;
   font-size: 4vw;
 }
