@@ -11,7 +11,8 @@ html {
   --contact : #eb6e80 ;
 }
 
-body {
+body,
+footer {
   font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 }
 
@@ -24,12 +25,12 @@ hr {
 
 main {
   padding: 0;
-  font-size: 1rem;
+  /*font-size: 1rem;*/
 }
 
 .svgContainer {
   text-align: center;
-  padding: 1vw;
+  /*padding: 1vw;*/
 }
 #svg4649 {
   height: 45vw;
@@ -62,8 +63,18 @@ main {
 }
 
 header {
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: var(--displayText);
+}
+
+footer {
+  text-align: center;
+  background: black;
+  /*height: 8vw;*/
+  font-family: var(--displayText);
+  padding: 4vw;
+  color: #fff;
+  font-size: 1vw;
 }
 #about {
   background: var(--about);
