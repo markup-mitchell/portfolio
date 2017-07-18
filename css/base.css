@@ -27,6 +27,14 @@ main {
   font-size: 1rem;
 }
 
+object { 
+  width: 30vw;
+}
+.svgContainer {
+  text-align: center;
+  padding: 1vw;
+}
+
 .landingSection {
   display: flex;
   flex-direction: column;
@@ -36,7 +44,7 @@ main {
   width: 100vw;
 }
 
-#name * {
+#name p {
   font-family: 'Bevan', cursive;
   font-size: 10vw;
   color: black;
