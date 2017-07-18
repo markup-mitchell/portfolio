@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 8vw;
+  padding: 0;
   font-size: 1.2rem;
 }
 
@@ -62,3 +62,8 @@ header {
   background: pink;
 }
 
+section {
+  padding: 10vw;
+  width: 80vw;
+  background: orange;
+}
