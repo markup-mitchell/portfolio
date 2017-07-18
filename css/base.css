@@ -3,9 +3,28 @@
 html {
   font-size: 18px;
 }
+:root {
+  --displayText : "Bevan", cursive;
+  --about : #e9b000;
+  --portfolio : #e24e42;
+  --personal : #008f95; 
+  --contact : #eb6e80 ;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
+hr {
+  border: none;
+  color: black;
+  background-color: black;
+  height: 1px;
+  }
+
+main {
+  padding: 0;
+  font-size: 1rem;
 }
 
 .landingSection {
@@ -37,12 +56,36 @@ body {
   /*background: pink;*/
 }
 
-#welcomeText:active #name p {
+#welcomeText:hover #name p {
   text-align: left;
   transition: all 2s;
 }
-#welcomeText:active #blurb {
+#welcomeText:hover #blurb {
   text-align: right;
   transition: all 2s;
 }
 
+header {
+  font-size: 4vw;
+  font-family: var(--displayText);
+}
+#about {
+  background: var(--about);
+}
+
+section {
+  padding: 10vw;
+  width: 80vw;
+}
+
+#portfolio {
+  background: var(--portfolio);
+}
+
+#personal {
+  background: var(--personal);
+}
+
+#contact {
+  background: var(--contact);
+}
