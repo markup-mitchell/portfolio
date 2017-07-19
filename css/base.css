@@ -4,24 +4,21 @@ html {
   font-size: 18px;
 }
 :root {
+  --copyFont : font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
   --displayText : "Bevan", cursive;
   --mainText: #ffffff;
   --about : #e9b000;
   --portfolio : #e24e42;
   --personal : #008f95; 
   --contact : #eb6e80 ;
-
-  /*--about : #0b3c5d;
-  --portfolio : #328cc1;
-  --personal : #d9b310; 
-  --contact : #1d2731 ;*/
-
 }
 
-body,
+body {
+  font-family: var(--copyFont);
+}
+
 footer {
-  font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
-  color: var(--mainText);
+  color: #fff;
 }
 
 hr {
