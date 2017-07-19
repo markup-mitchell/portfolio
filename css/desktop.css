@@ -12,8 +12,8 @@
 }
 #portfolioBubble {
   position: relative;
-  top: -7vw;
-  /*left: 1vw;*/
+  top: -8vw;
+  left: 2vw;
   transform: scale(-1,1);
   width: 15vw;
 }

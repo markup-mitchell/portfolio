@@ -16,6 +16,7 @@
    id="svg8"
    inkscape:version="0.92.1 r"
    sodipodi:docname="speech-bubble.svg">
+
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -76,5 +77,6 @@
        id="path4489"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
+<text x="7300" y="2648" font-size="2" fill="white" stroke="black" stroke-width=".06">Australian Capital Territory</text>
   </g>
 </svg>
