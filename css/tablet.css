@@ -1,0 +1,56 @@
+@media only screen and (min-width: 768px) {
+  main {
+    font-size: 1.5rem;
+  }
+
+#aboutBubble {
+  position: relative;
+
+  width: 15vw;
+  /*right: 2vw;*/
+  top: -5vw;
+}
+#portfolioBubble {
+  position: relative;
+  top: -8vw;
+  left: 2vw;
+  transform: scale(-1,1);
+  width: 15vw;
+}
+
+#face {
+  height: 25vw;
+}
+
+  .svgContainer {
+    text-align: center;
+    padding: 1vw;
+  }
+
+.landingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+#name p {
+    font-family: 'Bevan', cursive;
+    font-size: 4vw;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#blurb {
+    font-family: serif;
+    text-align: center;
+    width: 21vw;
+    /*margin-top: 2vw;*/
+    font-size: 1.2vw;
+    margin: 0;
+  }
+}

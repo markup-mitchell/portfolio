@@ -13,7 +13,7 @@ function draw(pathSelector) {
   path.style.strokeDashoffset = '0';
 }
 
-let paths = document.querySelectorAll('path');
+let paths = document.querySelectorAll('#face path'); // limit nodelist to face svg paths
 
 setTimeout(function(){
   paths.forEach(function(path) {

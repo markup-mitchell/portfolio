@@ -1,6 +1,6 @@
 
-@media only screen and (max-width: 400px) {
-  #aboutBubble {
+@media only screen and (max-width: 767px) {
+  #bubbleAbout {
     display: none;
   }
 

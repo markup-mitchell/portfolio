@@ -33,8 +33,8 @@ footer {
 hr {
   border: none;
   color: black;
-  background-color: black;
   height: 1px;
+  background-color: black;
   }
 
 main {
@@ -47,21 +47,18 @@ main {
   justify-content: center;
 }
 
-#aboutBubble {
-  position: relative;
-
-  right: 2vw;
-  top: -6vw;
-}
-#portfolioBubble {
-  position: relative;
-  top: -6vw;
-  left: 2vw;
-  transform: scale(-1,1);
+#face {
+  /*height: 45vw;*/
+  width: 35vw;
 }
 
-#svg4649 {
-  height: 45vw;
+#bubbleAbout {
+  width: 15vw;
+}
+#bubbleAboutText {
+  font-family: sans-serif;
+  color: pink;
+  font-size: .4rem;
 }
 
 .landingSection {
