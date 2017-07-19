@@ -19,5 +19,5 @@ setTimeout(function(){
   paths.forEach(function(path) {
     let pathSelector = `#${path.id}`;
     draw(pathSelector);
-  }, 10000);
+  }, 10000); //timeout doesn't work
 });
