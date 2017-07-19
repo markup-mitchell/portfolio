@@ -3,6 +3,20 @@
     font-size: 1.5rem;
   }
 
+#aboutBubble {
+  position: relative;
+
+  width: 15vw;
+  /*right: 2vw;*/
+  top: -5vw;
+}
+#portfolioBubble {
+  position: relative;
+  top: -7vw;
+  /*left: 1vw;*/
+  transform: scale(-1,1);
+  width: 15vw;
+}
 
 #svg4649 {
   height: 15vw;

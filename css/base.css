@@ -1,11 +1,12 @@
-* { background-color: rgba(255,0,0,.2); }
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Bevan|Days+One|Emblema+One|Petit+Formal+Script|Puritan|Racing+Sans+One|Ultra|VT323|Vast+Shadow');
+
+/** { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
 * * * * * { background-color: rgba(0,255,255,.2); }
-* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }*/
 
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Bevan|Days+One|Emblema+One|Petit+Formal+Script|Puritan|Racing+Sans+One|Ultra|VT323|Vast+Shadow');
 
 html {
   font-size: 18px;
@@ -42,9 +43,23 @@ main {
 }
 
 .svgContainer {
-  text-align: center;
-  /*padding: 1vw;*/
+  display: flex;
+  justify-content: center;
 }
+
+#aboutBubble {
+  position: relative;
+
+  right: 2vw;
+  top: -6vw;
+}
+#portfolioBubble {
+  position: relative;
+  top: -6vw;
+  left: 2vw;
+  transform: scale(-1,1);
+}
+
 #svg4649 {
   height: 45vw;
 }

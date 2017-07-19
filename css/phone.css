@@ -1,3 +1,10 @@
 
-/*@media only screen and (max-width: 400px) {*/
-  /*.landingSection {*/
+@media only screen and (max-width: 400px) {
+  #aboutBubble {
+    display: none;
+  }
+
+  #portfolioBubble {
+    display: none;
+  }
+}
