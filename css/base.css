@@ -21,6 +21,32 @@ html {
   --contact : #eb6e80 ;
 }
 
+.button {
+   width: 40px;
+   margin: 10px;
+}
+
+.buttonBox {
+  margin-top: 10vw;
+} 
+
+#aboutButton circle {
+   fill: var(--about); 
+   font-size: 10px;
+}
+
+#portfolioButton {
+   fill: var(--portfolio);
+}
+
+#personalButton {
+   fill: var(--personal);
+}
+
+#contactButton {
+   fill: var(--contact);
+}
+
 body * {
   font-family: var(--copyFont);
   background-color: rgb(100,100,100,0.2);
