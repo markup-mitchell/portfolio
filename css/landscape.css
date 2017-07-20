@@ -7,7 +7,7 @@
   }
 
   #face {
-    width: 30vw;
+    width: 20vw;
   }
 
   #name p {
@@ -20,6 +20,7 @@
 
   .buttonBox {
     flex-direction: column;
-    width: 100%;
+    width: 15%;
+    height: 80%;
   }
 }
