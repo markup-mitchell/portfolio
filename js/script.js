@@ -36,9 +36,19 @@ setTimeout(function(){
 //   });
 // }
 
+const BUTTONS = document.querySelectorAll('.button');
+
 function addPulse(identifier, delay) {
   let element = document.querySelector(identifier);
   element.style.animation = `pulse .5s 1 ${delay}s`;
   console.log(element);
+}
+
+function pulseButtons(){
+  for (i=0;i<BUTTONS.length;i++){
+    let identifier = BUTTONS[i].classList[1];
+    addPulse(`.${identifier}`, i);
+  }
+
 }
 
