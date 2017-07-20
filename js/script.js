@@ -1,3 +1,5 @@
+// Bendle the below up into a window.onload init function or something
+
 // Drawing the Logo
 // ------------------
 

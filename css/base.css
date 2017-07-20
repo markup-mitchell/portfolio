@@ -78,6 +78,12 @@ footer {
   align-self: flex-end;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .buttonBox {
   display: flex;
   height: 25vw;
