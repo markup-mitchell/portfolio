@@ -7,13 +7,6 @@
 * * * * * { background-color: rgba(0,255,255,.2); }
 * * * * * * { background-color: rgba(255,255,0,.2); }*/
 
-a:link {
-  text-decoration: none;
-}
-
-html {
-  font-size: 18px;
-}
 :root {
   --about : #e9b000;
   --contact : #eb6e80 ;
@@ -22,6 +15,50 @@ html {
   --mainText: #ffffff;
   --personal : #008f95; 
   --portfolio : #e24e42;
+}
+
+html {
+  font-size: 18px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+hr {
+  background-color: black;
+  border: none;
+  color: black;
+  height: 1px;
+}
+
+body * {
+  background-color: rgb(100,100,100,0.2);
+  font-family: var(--copyFont);
+}
+
+main {
+  padding: 0;
+  /*font-size: 1rem;*/
+}
+
+section {
+  font-family: var(--copyFont);
+  padding: 10vw;
+  width: 80vw;
+}
+
+header {
+  font-family: var(--displayText);
+}
+
+footer {
+  background: black;
+  color: #fff;
+  font-family: var(--displayText);
+  font-size: 1vw;
+  padding: 4vw;
+  text-align: center;
 }
 
 .buttonBox {
@@ -33,27 +70,31 @@ html {
   width: 80vw;
 } 
 
-.buttonBox a:nth-of-type(2) {
-  align-self: flex-end;
-}
+.buttonBox a:nth-of-type(2),
 .buttonBox a:nth-of-type(3) {
   align-self: flex-end;
 }
 
-.me {   
-   background-color: #e9b000;
-}
-.code {   
-   background-color: #e24e42;
-   align-self: flex-end;
+#about,    
+.me {
+   background-color: var(--about);
 }
 
+#portfolio,
+.code {   
+   background-color: var(--portfolio);
+}
+
+#personal,
 .art {   
-  background-color: #008f95;
+  background-color: var(--personal);
 }
+
+#contact,
 .find {   
-    background-color: #eb6e80;
+    background-color: var(--contact);
 }
+
 .button {
    align-items: center;
    border-radius: 100%;
@@ -64,26 +105,6 @@ html {
    height: 50px;
    justify-content: center;
    width: 50px;
-}
-body * {
-  background-color: rgb(100,100,100,0.2);
-  font-family: var(--copyFont);
-}
-
-footer {
-  color: #fff;
-}
-
-hr {
-  background-color: black;
-  border: none;
-  color: black;
-  height: 1px;
-  }
-
-main {
-  padding: 0;
-  /*font-size: 1rem;*/
 }
 
 .svgContainer {
@@ -105,23 +126,6 @@ main {
   width: 100vw;
 }
 
-section {
-  font-family: var(--copyFont);
-  padding: 10vw;
-  width: 80vw;
-}
-
-header {
-  font-family: var(--displayText);
-}
-footer {
-  background: black;
-  color: #fff;
-  font-family: var(--displayText);
-  font-size: 1vw;
-  padding: 4vw;
-  text-align: center;
-}
 
 #name p {
   color: black;
@@ -139,20 +143,4 @@ footer {
   margin-top: 2vw;
   text-align: center;
   width: 70vw;
-}
-
-#about {
-  background: var(--about);
-}
-
-#portfolio {
-  background: var(--portfolio);
-}
-
-#personal {
-  background: var(--personal);
-}
-
-#contact {
-  background: var(--contact);
 }
