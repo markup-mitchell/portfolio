@@ -41,8 +41,6 @@
     font-size: 4vw;
     color: black;
     text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
 #blurb {
@@ -51,6 +49,5 @@
     width: 21vw;
     /*margin-top: 2vw;*/
     font-size: 1.2vw;
-    margin: 0;
   }
 }
