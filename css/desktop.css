@@ -3,29 +3,9 @@
     font-size: 1.5rem;
   }
 
-#aboutBubble {
-  position: relative;
-
-  width: 15vw;
-  /*right: 2vw;*/
-  top: -5vw;
-}
-#portfolioBubble {
-  position: relative;
-  top: -8vw;
-  left: 2vw;
-  transform: scale(-1,1);
-  width: 15vw;
-}
-
 #face {
   height: 15vw;
 }
-
-  .svgContainer {
-    text-align: center;
-    padding: 1vw;
-  }
 
 .landingSection {
     display: flex;
@@ -33,7 +13,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
   }
 
 #name p {
@@ -42,10 +21,9 @@
     text-align: center;
 }
 
-#blurb {
+/*#blurb {
     font-family: serif;
     text-align: center;
-    width: 21vw;
-    font-size: 1.2vw;
-  }
+    font-size: 1rem;
+  }*/
 }

@@ -7,7 +7,6 @@
   align-self: flex-end;
 }
 .buttonBox {
-  width: 100vw;
   height: 50px;
   position: absolute;
   bottom: 0;
@@ -25,23 +24,8 @@
    width: 25vw;
 }
 
-#aboutBubble {
-  position: relative;
-
-  width: 15vw;
-  /*right: 2vw;*/
-  top: -5vw;
-}
-#portfolioBubble {
-  position: relative;
-  top: -8vw;
-  left: 2vw;
-  transform: scale(-1,1);
-  width: 15vw;
-}
-
 #face {
-  height: 25vw;
+  height: 35vw;
 }
 
   .svgContainer {
@@ -52,13 +36,11 @@
 #name p {
     font-size: 4vw;
     color: black;
-    text-align: center;
 }
 
 #blurb {
     font-family: serif;
-    width: 21vw;
+    width: 100%;
     font-size: 1.2vw;
-    margin: 0;
-  }
 }
+  }

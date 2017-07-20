@@ -39,14 +39,15 @@ hr {
 
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
 
 
 section {
   font-family: var(--copyFont);
-  width: 80vw;
+  width: 70%;
   margin: auto;
-  padding: 10vw;
+  padding: 10%
 }
 
 
@@ -69,7 +70,6 @@ footer {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  width: 100vw;
 }
 
 .landingSection:last-child {
@@ -81,7 +81,7 @@ footer {
   height: 25vw;
   justify-content: center;
   justify-content: space-between;
-  width: 80vw;
+  width: 80%;
 } 
 
 .buttonBox a:nth-of-type(2),
@@ -130,7 +130,6 @@ footer {
 }
 
 #face {
-  /*height: 45vw;*/
   width: 35vw;
 }
 
@@ -146,10 +145,10 @@ footer {
 
 }
 
-#blurb p {
+#blurb {
   color: black;
   font-family: serif;
   font-size: 4vw;
-  width: 70vw;
+  width: 70%;
   text-align: center;
 }
