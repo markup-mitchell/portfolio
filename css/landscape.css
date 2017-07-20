@@ -1,0 +1,25 @@
+
+@media (orientation: landscape) { 
+  .landingSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #face {
+    width: 30vw;
+  }
+
+  #name p {
+    font-size: 5vw;
+  }
+  
+  #blurb {
+    font-size: 1rem;
+  }
+
+  .buttonBox {
+    flex-direction: column;
+    width: 10vw;
+  }
+}

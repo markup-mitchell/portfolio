@@ -50,7 +50,6 @@
 
 
 #name p {
-    font-family: 'Bevan', cursive;
     font-size: 4vw;
     color: black;
     text-align: center;
@@ -58,9 +57,7 @@
 
 #blurb {
     font-family: serif;
-    text-align: center;
     width: 21vw;
-    /*margin-top: 2vw;*/
     font-size: 1.2vw;
     margin: 0;
   }

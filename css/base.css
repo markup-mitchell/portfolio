@@ -129,33 +129,27 @@ footer {
     background-color: var(--contact);
 }
 
-
-.svgContainer {
-  display: flex;
-  justify-content: center;
-}
-
 #face {
   /*height: 45vw;*/
   width: 35vw;
 }
 
 
-#name p {
+#name {
+  display: flex;
+  flex-direction: column;
   color: black;
   font-family: 'Bevan', cursive;
   font-size: 12vw;
-  /*margin: 0;
-  padding: 0;*/
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 
 }
 
-#blurb {
+#blurb p {
   color: black;
   font-family: serif;
   font-size: 4vw;
-  margin-top: 2vw;
-  text-align: center;
   width: 70vw;
+  text-align: center;
 }
