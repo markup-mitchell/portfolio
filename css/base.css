@@ -15,21 +15,21 @@ html {
   font-size: 18px;
 }
 :root {
-  --copyFont : font-family: -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  --about : #e9b000;
+  --contact : #eb6e80 ;
+  --copyFont : -apple-system, BlinkMacSystemFont, Sergoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
   --displayText : "Bevan", cursive;
   --mainText: #ffffff;
-  --about : #e9b000;
-  --portfolio : #e24e42;
   --personal : #008f95; 
-  --contact : #eb6e80 ;
+  --portfolio : #e24e42;
 }
 
 .buttonBox {
-  height: 20vw;
   display: flex;
+  height: 20vw;
   justify-content: center;
-  margin-top: 10vw;
   justify-content: space-between;
+  margin-top: 10vw;
   width: 80vw;
 } 
 
@@ -106,10 +106,14 @@ main {
 }
 
 section {
+  font-family: var(--copyFont);
   padding: 10vw;
   width: 80vw;
 }
 
+header {
+  font-family: var(--displayText);
+}
 footer {
   background: black;
   color: #fff;
