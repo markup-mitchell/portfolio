@@ -98,7 +98,15 @@ footer {
    font-size: 15px;
    height: 50px;
    justify-content: center;
+   transition: all .5s linear;
    width: 50px;
+}
+
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 #about,    

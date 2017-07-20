@@ -2,6 +2,9 @@
 // landSect.style.backgroundImage = 'url("assets/moss_and_lichen.jpg")';
 // landSect.style.backgroundSize = 'cover';
 
+// Drawing the Logo
+// ------------------
+
 function draw(pathSelector) {
   const path = document.querySelector(pathSelector);
   const pathLength = path.getTotalLength();
@@ -21,3 +24,21 @@ setTimeout(function(){
     draw(pathSelector);
   }, 10000); //timeout doesn't work
 });
+
+// Pulsing the buttons
+// --------------------------
+
+// function pulse(){
+//   let buttonList = document.querySelectorAll('.button');
+//   buttonList.forEach(function(button) {
+//     button.classList.add('pulse');
+//     console.log(button);
+//   });
+// }
+
+function addPulse(identifier, delay) {
+  let element = document.querySelector(identifier);
+  element.style.animation = `pulse .5s 1 ${delay}s`;
+  console.log(element);
+}
+
