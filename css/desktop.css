@@ -21,9 +21,12 @@
     text-align: center;
 }
 
-/*#blurb {
-    font-family: serif;
-    text-align: center;
+.buttonBox {
+  flex-direction: row;
+}
+
+#blurb {
+  
     font-size: 1rem;
-  }*/
+  }
 }

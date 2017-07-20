@@ -20,6 +20,6 @@
 
   .buttonBox {
     flex-direction: column;
-    width: 10vw;
+    width: 100%;
   }
 }
