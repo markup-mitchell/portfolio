@@ -98,7 +98,7 @@ footer {
    font-size: 15px;
    height: 50px;
    justify-content: center;
-   transition: all .5s linear;
+   transition: scaleX .5s linear;
    width: 50px;
 }
 

@@ -13,11 +13,6 @@
   bottom: 0;
 } 
 
-/*.buttonBox a:nth-of-type(2),
-.buttonBox a:nth-of-type(3) {
-  align-self: flex-end;
-}*/
-
 .button {
    align-items: center;
    border-radius: 0%;
@@ -26,7 +21,7 @@
    font-family: monospace;
    font-size: 1rem;
    height: 50px;
-   /*justify-content: center;*/
+   justify-content: center;
    width: 25vw;
 }
 

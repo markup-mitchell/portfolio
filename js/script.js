@@ -1,7 +1,3 @@
-// let landSect = document.querySelector('.landingSection');
-// landSect.style.backgroundImage = 'url("assets/moss_and_lichen.jpg")';
-// landSect.style.backgroundSize = 'cover';
-
 // Drawing the Logo
 // ------------------
 
@@ -27,15 +23,6 @@ setTimeout(function(){
 
 // Pulsing the buttons
 // --------------------------
-
-// function pulse(){
-//   let buttonList = document.querySelectorAll('.button');
-//   buttonList.forEach(function(button) {
-//     button.classList.add('pulse');
-//     console.log(button);
-//   });
-// }
-
 const BUTTONS = document.querySelectorAll('.button');
 
 // This isn't cool. couldn't get transitionend eventlisteners working :(
@@ -65,6 +52,6 @@ function unpulseButtons(){ // calls removePulse on all the buttons
 }
 
 setInterval(pulseButtons, 5000);
-setInterval(unpulseButtons, 5500);
+setInterval(unpulseButtons, 5600); // these might eventually de-sync?
 
 
