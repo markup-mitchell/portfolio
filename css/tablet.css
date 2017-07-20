@@ -3,6 +3,33 @@
     font-size: 1.5rem;
   }
 
+.landingSection:last-child {
+  align-self: flex-end;
+}
+.buttonBox {
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+} 
+
+/*.buttonBox a:nth-of-type(2),
+.buttonBox a:nth-of-type(3) {
+  align-self: flex-end;
+}*/
+
+.button {
+   /*align-items: center;*/
+   border-radius: 0%;
+   color: white;
+   display: flex;
+   font-family: monospace;
+   font-size: 15px;
+   height: 50px;
+   /*justify-content: center;*/
+   width: 25vw;
+}
+
 #aboutBubble {
   position: relative;
 
@@ -27,14 +54,6 @@
     padding: 1vw;
   }
 
-.landingSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-  }
 
 #name p {
     font-family: 'Bevan', cursive;

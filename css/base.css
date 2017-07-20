@@ -32,10 +32,9 @@ hr {
   height: 1px;
 }
 
-body * {
-  background-color: rgb(100,100,100,0.2);
-  font-family: var(--copyFont);
-}
+/** {
+  margin: 0;
+}*/
 
 main {
   padding: 0;
@@ -61,12 +60,23 @@ footer {
   text-align: center;
 }
 
+
+.landingSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+
 .buttonBox {
   display: flex;
   height: 25vw;
   justify-content: center;
   justify-content: space-between;
-  margin-top: 5vw;
+  margin-top: 10vw;
   width: 80vw;
 } 
 
@@ -118,23 +128,15 @@ footer {
   width: 35vw;
 }
 
-.landingSection {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  width: 100vw;
-}
-
 
 #name p {
   color: black;
   font-family: 'Bevan', cursive;
   font-size: 12vw;
-  margin: 0;
-  padding: 0;
+  /*margin: 0;
+  padding: 0;*/
   text-align: center;
+
 }
 
 #blurb {
