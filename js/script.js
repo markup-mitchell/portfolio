@@ -38,17 +38,33 @@ setTimeout(function(){
 
 const BUTTONS = document.querySelectorAll('.button');
 
-function addPulse(identifier, delay) {
+// This isn't cool. couldn't get transitionend eventlisteners working :(
+
+function addPulse(identifier, delay) {// add 'pulse once after x time' prop to a specified element
   let element = document.querySelector(identifier);
   element.style.animation = `pulse .5s 1 ${delay}s`;
-  console.log(element);
 }
 
-function pulseButtons(){
+function removePulse(identifier) { // removes animation instructions specified element
+  let element = document.querySelector(identifier);
+  element.style.removeProperty('animation');
+    console.log(element);
+}
+
+function pulseButtons(){ // calls addPulse on all the buttons 
   for (i=0;i<BUTTONS.length;i++){
     let identifier = BUTTONS[i].classList[1];
-    addPulse(`.${identifier}`, i);
+    addPulse(`.${identifier}`, i/8); // i/8 is an arbitrary incremental fraction 
   }
-
 }
+
+function unpulseButtons(){ // calls removePulse on all the buttons
+  BUTTONS.forEach(function(button) {
+    button.style.removeProperty('animation');
+  });
+}
+
+setInterval(pulseButtons, 5000);
+setInterval(unpulseButtons, 5500);
+
 
