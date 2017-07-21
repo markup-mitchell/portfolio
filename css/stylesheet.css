@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Courgette|Libre+Franklin|Nunito|Quicksand');
 @import '../node_modules/normalize.css/normalize.css';
 @import './base.css';
-@import './landscape.css';
+/*@import './landscape.css';*/
 @import './tablet.css';
 @import './desktop.css';
 /*@import './svg.css';*/
