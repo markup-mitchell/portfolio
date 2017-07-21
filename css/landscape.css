@@ -16,6 +16,7 @@
     width: 50vw;
     order: 0;
     align-self: flex-end;
+    margin: 0;
   }
 
   #name  {
@@ -25,7 +26,7 @@
   
   #blurb {
     font-size: 1rem;
-    width: 70%;
+    width: 80%;
   }
 
   .buttonBox {
