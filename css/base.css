@@ -47,14 +47,7 @@ body {
 
 section {
   font-family: var(--copyFont);
-<<<<<<< HEAD
   font-size: 1rem;
-  width: 80%;
-  margin: auto;
-  padding: 10%
-=======
-  width: 100%;
->>>>>>> desktop
 }
 
 /*section p {
@@ -169,11 +162,5 @@ footer {
   color: black;
   font-family: serif;
   font-size: 4vw;
-<<<<<<< HEAD
-  width: 60%;
-=======
   width: 60vw;
->>>>>>> desktop
-  text-align: center;
-  margin-top: 2vw;
 }
