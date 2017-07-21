@@ -41,17 +41,26 @@ hr {
 
 body {
   overflow-x: hidden;
-  width: 100%;
+  /*width: 90%;*/
 }
 
 
 section {
   font-family: var(--copyFont);
+<<<<<<< HEAD
   font-size: 1rem;
   width: 80%;
   margin: auto;
   padding: 10%
+=======
+  width: 100%;
+>>>>>>> desktop
 }
+
+/*section p {
+  width: 70%;
+  padding: 3% 0 0 3%;
+}*/
 
 
 header {
@@ -77,9 +86,9 @@ footer {
   width: 100%;
 }
 
-.landingSection:last-child {
+/*.landingSection:last-child {
   align-self: flex-end;
-}
+}*/
 
 .flex-container {
   display: flex;
@@ -90,10 +99,9 @@ footer {
 }
 .buttonBox {
   display: flex;
-  height: 25vw;
-  justify-content: center;
+  height: 20vw;
   justify-content: space-between;
-  width: 80%;
+  width: 70%;
 } 
 
 .buttonBox a:nth-of-type(2),
@@ -154,13 +162,18 @@ footer {
   font-size: 12vw;
   justify-content: center;
   align-items: center;
+  width: 40vw;
 }
 
 #blurb {
   color: black;
   font-family: serif;
   font-size: 4vw;
+<<<<<<< HEAD
   width: 60%;
+=======
+  width: 60vw;
+>>>>>>> desktop
   text-align: center;
   margin-top: 2vw;
 }
