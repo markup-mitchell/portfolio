@@ -4,7 +4,9 @@
   }
 
 #face {
-  height: 15vw;
+  height: 25vw;
+  align-self: center;
+  margin: 0;
 }
 
 .landingSection {
@@ -15,6 +17,12 @@
     height: 100vh;
   }
 
+.flex-container {
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+
 #name p {
     font-size: 4vw;
     color: black;
@@ -22,11 +30,13 @@
 }
 
 .buttonBox {
+  position: relative;
+  bottom: 0;
   flex-direction: row;
 }
 
 #blurb {
-  
-    font-size: 1rem;
+    font-size: 1.3rem; 
+    width: 55%;
   }
 }
