@@ -31,6 +31,7 @@ hr {
   border: none;
   color: black;
   height: 1px;
+  margin: 1vw 0 3vw 0;
 }
 
 * {
@@ -46,7 +47,8 @@ body {
 
 section {
   font-family: var(--copyFont);
-  width: 70%;
+  font-size: 1rem;
+  width: 80%;
   margin: auto;
   padding: 10%
 }
@@ -54,6 +56,7 @@ section {
 
 header {
   font-family: var(--displayText);
+  font-size: 6vw;
 }
 
 footer {
@@ -107,7 +110,6 @@ footer {
    font-size: 15px;
    height: 50px;
    justify-content: center;
-   transition: scaleX .5s linear;
    width: 50px;
 }
 
@@ -139,10 +141,8 @@ footer {
 }
 
 #face {
-  width: 35vw;
+  width: 30vw;
   order: -1;
-  margin-left: 6vw;
-  padding-bottom: 4vw;
 }
 
 
@@ -159,7 +159,8 @@ footer {
 #blurb {
   color: black;
   font-family: serif;
-  font-size: 5vw;
+  font-size: 4vw;
   width: 60%;
   text-align: center;
+  margin-top: 2vw;
 }
