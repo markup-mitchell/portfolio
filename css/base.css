@@ -46,10 +46,13 @@ body {
 
 section {
   font-family: var(--copyFont);
-  width: 70%;
-  margin: auto;
-  padding: 10%
+  width: 100%;
 }
+
+/*section p {
+  width: 70%;
+  padding: 3% 0 0 3%;
+}*/
 
 
 header {
