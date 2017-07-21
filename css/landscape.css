@@ -9,17 +9,17 @@
   .flex-container {
     flex-direction: row;
     width: 90%;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   #face {
-    width: 35vw;
+    width: 50vw;
     order: 0;
-    /*align-self: flex-end;*/
+    align-self: flex-end;
   }
 
   #name  {
-    font-size: 8vw;
+    font-size: 7vw;
     /*justify-content: center;*/
   }
   
@@ -30,8 +30,13 @@
 
   .buttonBox {
     flex-direction: column;
-    width: 20%;
-    height: 90%;
-    margin-left: 5vw;
+    width: 23%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 4vw;
+  }
+
+  .button {
+    margin: 8px;
   }
 }

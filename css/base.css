@@ -81,8 +81,9 @@ footer {
 .flex-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;  
   align-items: center;
+  height: 70%;
 }
 .buttonBox {
   display: flex;
@@ -139,6 +140,9 @@ footer {
 
 #face {
   width: 35vw;
+  order: -1;
+  margin-left: 6vw;
+  padding-bottom: 4vw;
 }
 
 
@@ -150,13 +154,12 @@ footer {
   font-size: 12vw;
   justify-content: center;
   align-items: center;
-
 }
 
 #blurb {
   color: black;
   font-family: serif;
-  font-size: 4vw;
-  width: 70%;
+  font-size: 5vw;
+  width: 60%;
   text-align: center;
 }
