@@ -90,8 +90,9 @@ footer {
 }
 .buttonBox {
   display: flex;
-  height: 25vw;
+  height: 20vw;
   justify-content: space-between;
+  width: 70%;
 } 
 
 .buttonBox a:nth-of-type(2),
@@ -155,13 +156,13 @@ footer {
   font-size: 12vw;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 40vw;
 }
 
 #blurb {
   color: black;
   font-family: serif;
-  font-size: 5vw;
-  width: 100%;
+  font-size: 4vw;
+  width: 60vw;
   text-align: center;
 }
