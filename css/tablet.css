@@ -6,6 +6,12 @@
 .landingSection:last-child {
   align-self: flex-end;
 }
+
+.flex-container {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
 .buttonBox {
   height: 50px;
   position: absolute;
@@ -26,6 +32,7 @@
 
 #face {
   height: 35vw;
+  margin: 0;
 }
 
   .svgContainer {
@@ -34,12 +41,14 @@
 
 
 #name p {
-    font-size: 4vw;
+    font-size: 6vw;
     color: black;
+
 }
 
 #blurb {
     font-family: serif;
-    width: 100%;
-}
+    font-size: 2vw;
+    width: 55%;
   }
+}

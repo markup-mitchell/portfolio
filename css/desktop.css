@@ -4,9 +4,10 @@
   }
 
 #face {
-  height: 25vw;
+  height: 15vw;
   align-self: center;
   margin: 0;
+  order: -1;
 }
 
 .landingSection {
@@ -24,7 +25,7 @@
 }
 
 #name p {
-    font-size: 4vw;
+    font-size: 6vw;
     color: black;
     text-align: center;
 }
@@ -36,7 +37,7 @@
 }
 
 #blurb {
-    font-size: 1.3rem; 
+    font-size: 2vw; 
     width: 55%;
   }
 }
