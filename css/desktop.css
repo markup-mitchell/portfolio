@@ -1,11 +1,8 @@
 @media only screen and (min-width: 801px) {
-    font-size: 1.5rem;
 
 #face {
-  height: 15vw;
-  align-self: center;
+  width: 15%;
   margin: 0;
-  /*order: -1;*/
 }
 
 .landingSection {
@@ -17,22 +14,26 @@
   }
 
 .flex-container {
-  flex-direction: column;
+  flex-direction: row-reverse;
   height: 100%;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+
 }
 
-#name p {
-    font-size: 6vw;
+#name  {
+    font-size: 4vw;
     color: black;
     text-align: center;
+    width: 25vw;
 }
 
 .buttonBox {
   height: 50px;
   position: absolute;
   bottom: 0;
+  width: 100%;
+
 } 
 
 .button {
@@ -48,7 +49,7 @@
 }
 
 #blurb {
-    font-size: 2vw; 
-    /*width: 75%;*/
+    font-size: 1.3vw; 
+    width: 100%;
   }
 }

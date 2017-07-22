@@ -47,18 +47,9 @@ body {
 
 section {
   font-family: var(--copyFont);
-<<<<<<< HEAD
   font-size: 1rem;
-=======
   width: 100%;
->>>>>>> desktop
 }
-
-/*section p {
-  width: 70%;
-  padding: 3% 0 0 3%;
-}*/
-
 
 header {
   font-family: var(--displayText);
@@ -90,15 +81,18 @@ footer {
 .flex-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-around;  
   align-items: center;
-  height: 70%;
+  height: 60%;
+  width: 100%
 }
+
 .buttonBox {
   display: flex;
   height: 20vw;
+  width: 80vw;
   justify-content: space-between;
-  width: 70%;
+  margin-top: 5vw;
 } 
 
 .buttonBox a:nth-of-type(2),
@@ -124,29 +118,25 @@ footer {
     transform: scaleY(1.2); /* needs to work for square buttons too, so Y axis only */
   }
 }
-
 #about,    
 .me {
    background-color: var(--about);
 }
-
 #portfolio,
 .code {   
    background-color: var(--portfolio);
 }
-
 #personal,
 .art {   
   background-color: var(--personal);
 }
-
 #contact,
 .find {   
     background-color: var(--contact);
 }
 
 #face {
-  width: 30vw;
+  width: 40%;
   order: -1;
 }
 
@@ -167,9 +157,5 @@ footer {
   font-family: serif;
   font-size: 4vw;
   width: 60vw;
-<<<<<<< HEAD
-}
-=======
   text-align: center;
 }
->>>>>>> desktop
