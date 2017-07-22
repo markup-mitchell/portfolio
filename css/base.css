@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Bevan|Days+One|Emblema+One|Petit+Formal+Script|Puritan|Racing+Sans+One|Ultra|VT323|Vast+Shadow');
 
-/** { background-color: rgba(255,0,0,.2); }
+* { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
 * * * * * { background-color: rgba(0,255,255,.2); }
-* * * * * * { background-color: rgba(255,255,0,.2); }*/
+* * * * * * { background-color: rgba(255,255,0,.2); }
 
 :root {
   --about : #e9b000;
@@ -118,6 +118,16 @@ footer {
     transform: scaleY(1.2); /* needs to work for square buttons too, so Y axis only */
   }
 }
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 #about,    
 .me {
    background-color: var(--about);
@@ -136,7 +146,7 @@ footer {
 }
 
 #face {
-  width: 40%;
+  width: 40vw;
   order: -1;
 }
 
@@ -149,13 +159,12 @@ footer {
   font-size: 12vw;
   justify-content: center;
   align-items: center;
-  width: 40vw;
+  width: 60vw;
 }
 
 #blurb {
   color: black;
   font-family: serif;
   font-size: 4vw;
-  width: 60vw;
   text-align: center;
 }

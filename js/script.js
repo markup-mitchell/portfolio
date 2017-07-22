@@ -34,12 +34,6 @@ function addPulse(identifier, delay) {// add 'pulse once after x time' prop to a
   element.style.animation = `pulse .5s 1 ${delay}s`;
 }
 
-function removePulse(identifier) { // removes animation instructions specified element
-  let element = document.querySelector(identifier);
-  element.style.removeProperty('animation');
-    console.log(element);
-}
-
 function pulseButtons(){ // calls addPulse on all the buttons 
   for (i=0;i<BUTTONS.length;i++){
     let identifier = BUTTONS[i].classList[1];
@@ -47,7 +41,7 @@ function pulseButtons(){ // calls addPulse on all the buttons
   }
 }
 
-function unpulseButtons(){ // calls removePulse on all the buttons
+function unpulseButtons(){ 
   BUTTONS.forEach(function(button) {
     button.style.removeProperty('animation');
   });
