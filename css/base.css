@@ -7,6 +7,11 @@
 * * * * * { background-color: rgba(0,255,255,.2); }
 * * * * * * { background-color: rgba(255,255,0,.2); }*/
 
+* { /* how does this interact with normalize.css? should probably remove and restyle elements where necesssary */
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --about : #e9b000;
   --contact : #eb6e80 ;
@@ -31,17 +36,11 @@ hr {
   border: none;
   color: black;
   height: 1px;
-  margin: 1vw 0 3vw 0;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   overflow-x: hidden;
-  /*width: 90%;*/
 }
 
 
