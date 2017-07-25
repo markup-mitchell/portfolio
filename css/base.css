@@ -7,10 +7,6 @@
 * * * * * { background-color: rgba(0,255,255,.2); }
 * * * * * * { background-color: rgba(255,255,0,.2); }*/
 
-* { /* how does this interact with normalize.css? should probably remove and restyle elements where necesssary */
-  margin: 0;
-  padding: 0;
-}
 
 :root {
   --about : #e9b000;
@@ -36,23 +32,28 @@ hr {
   border: none;
   color: black;
   height: 1px;
+  margin-bottom: 15px;
 }
-
 
 body {
   overflow-x: hidden;
 }
 
+main {
+  width: 100vw;
+}
 
 section {
   font-family: var(--copyFont);
-  font-size: 1rem;
-  width: 100%;
+  font-size: 1.5rem;
+  width: 94%;
+  padding:3%; 
 }
 
 header {
   font-family: var(--displayText);
   font-size: 6vw;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -159,6 +160,11 @@ footer {
   justify-content: center;
   align-items: center;
   width: 60vw;
+}
+
+#name p { /* tight placement for name text */
+  padding: 0;
+  margin: 0;
 }
 
 #blurb {
