@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Bevan|Days+One|Emblema+One|Petit+Formal+Script|Puritan|Racing+Sans+One|Ultra|VT323|Vast+Shadow');
 
-* { background-color: rgba(255,0,0,.2); }
+/** { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
 * * * * * { background-color: rgba(0,255,255,.2); }
-* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }*/
 
 :root {
   --about : #e9b000;
