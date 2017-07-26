@@ -173,3 +173,14 @@ footer {
   font-size: 4vw;
   text-align: center;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /*width: 100%;*/
+}
+.gallery--item {
+  margin: 10px;
+  width: 30vw;
+  height: 20vw;
+  background: black;
+}
