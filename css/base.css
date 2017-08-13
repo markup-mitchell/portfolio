@@ -21,6 +21,7 @@
 html {
   font-size: 18px;
   width: 100vw;
+  padding: 0;
 }
 
 a:link {
@@ -72,6 +73,7 @@ footer {
   height: 100vh;
   justify-content: center;
   width: 100%;
+  padding: 0;
 }
 
 /*.landingSection:last-child {
