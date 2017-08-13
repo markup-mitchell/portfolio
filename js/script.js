@@ -1,4 +1,9 @@
-// Bendle the below up into a window.onload init function or something
+// test jquery present:
+// $(document).ready(function() {
+  //  alert('jquery loaded');
+// });
+
+// Bundle the below up into a window.onload init function or something
 
 // Drawing the Logo
 // ------------------
