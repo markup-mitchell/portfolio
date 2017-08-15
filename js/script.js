@@ -1,20 +1,16 @@
-// test jquery present:
-// $(document).ready(function() {
-  //  alert('jquery loaded');
-// });
-
 // Bundle the below up into a window.onload init function or something
 
 // Drawing the Logo
 // ------------------
 
-function draw(pathSelector) {
-  const path = document.querySelector(pathSelector);
-  const pathLength = path.getTotalLength();
-  path.style.transition = path.style.WebkitTransition = 'none';
-  path.style.strokeDasharray = pathLength + ' ' + pathLength; 
-  path.style.strokeDashoffset = pathLength;
-  path.getBoundingClientRect();
+function draw(pathSelector) { // arg is name of any single SVG path
+  const path = document.querySelector(pathSelector); // shorten!
+  const pathLength = path.getTotalLength(); // get length
+  path.style.transition = path.style.WebkitTransition = 'none'; // clear as precaution
+  path.style.strokeDasharray = pathLength + ' ' + pathLength; // dash is full length space
+  path.style.strokeDashoffset = pathLength; // offset so only ' ' is visible
+  path.getBoundingClientRect(); // 'trigger a layout' ??? https://jakearchibald.com/2013/animated-line-drawing-svg/
+  // apply the appropriate transition and make the change to initiate it: 
   path.style.transition = path.style.WebkitTransition = 'stroke-dashoffset 2s ease-out';
   path.style.strokeDashoffset = '0';
 }
