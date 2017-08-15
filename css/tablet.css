@@ -1,15 +1,16 @@
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 400px) and (max-device-width : 768px) {
   main {
     font-size: 1.5rem;
   }
 
-.landingSection:last-child {
-  align-self: flex-end;
-}
-
 .flex-container {
   flex-direction: row-reverse;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingSection:last-child {
+  align-self: flex-end;
 }
 
 .buttonBox {
@@ -40,15 +41,16 @@
   }
 
 
-#name p {
+#name {
     font-size: 6vw;
     color: black;
+    width: 35vw;
 
 }
 
 #blurb {
     font-family: serif;
     font-size: 2vw;
-    width: 55%;
+    width: 65%;
   }
 }

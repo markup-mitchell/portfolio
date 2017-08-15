@@ -1,3 +1,5 @@
+
+/* This import statement is no good - all these calls should be combined into one in index.html (I think) */
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Bevan|Days+One|Emblema+One|Petit+Formal+Script|Puritan|Racing+Sans+One|Ultra|VT323|Vast+Shadow');
 
 /** { background-color: rgba(255,0,0,.2); }
@@ -25,6 +27,7 @@ html {
 }
 
 a:link {
+  /* accessbibility must be addressed */
   text-decoration: none;
 }
 

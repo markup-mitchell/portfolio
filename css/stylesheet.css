@@ -2,6 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Courgette|Libre+Franklin|Nunito|Quicksand');
 @import './base.css';
 /*@import './landscape.css';*/
-/*@import './tablet.css';*/
+@import './tablet.css';
 @import './desktop.css';
 /*@import './svg.css';*/
