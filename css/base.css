@@ -53,7 +53,7 @@ section {
   font-family: var(--copyFont);
   font-size: 1.5rem;
   width: 94%;
-  padding:3%; 
+  padding: 5% 3% 3% 3%; 
 }
 
 header {
@@ -268,6 +268,13 @@ footer {
 }
 
  /* PERSONAL IMAGES */
+
+ #personal-container {
+  display: grid; /* replace with flexbox? */
+  grid-template-columns: 1fr 1fr 1fr; /* -ms-grid-column-align?? check compat */
+  align-items: center;
+  justify-items: center; 
+ }
 
 #comic_face {
   background-image: url("../assets/comic_face.png");
