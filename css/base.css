@@ -25,10 +25,12 @@ html {
   width: 100vw;
   padding: 0;
 }
-
+a,
 a:link {
   /* accessbibility must be addressed */
   text-decoration: none;
+  color: black;
+
 }
 
 hr {

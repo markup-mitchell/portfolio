@@ -3,6 +3,8 @@
 // Drawing the Logo
 // ------------------
 
+// this function can be called on any svg path nodelist to apply the effect to arbitrary inline SVGs:
+
 function draw(pathSelector) { // arg is name of any single SVG path
   const path = document.querySelector(pathSelector); // shorten!
   const pathLength = path.getTotalLength(); // get length
