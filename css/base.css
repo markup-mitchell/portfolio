@@ -246,6 +246,7 @@ footer {
   margin: 0;
 }
 
+/* WORK IMAGES */
 #cat-dog-dino {
   background-image: url("../assets/cat-dog-dino.png");
 }
@@ -265,6 +266,17 @@ footer {
 #react {
   background-image: url("../assets/pending.png");
 }
+
+ /* PERSONAL IMAGES */
+
+#comic_face {
+  background-image: url("../assets/comic_face.png");
+}
+
 #codepen-comics {
+  background-image: url("../assets/code_comic.png");
+}
+
+#codepod {
   background-image: url("../assets/codepod.png");
 }
