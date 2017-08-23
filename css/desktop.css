@@ -102,8 +102,9 @@ section header {
 
  #personal-container {
   display: grid; /* replace with flexbox? */
-  grid-template-columns: 1fr; /* -ms-grid-column-align?? check compat */
+  grid-template-columns: 1fr 1fr 1fr; /* -ms-grid-column-align?? check compat */
   align-items: center;
   justify-items: center; 
  }
 
+}
