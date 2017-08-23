@@ -100,3 +100,10 @@ section header {
   margin: 0;
 }
 
+ #personal-container {
+  display: grid; /* replace with flexbox? */
+  grid-template-columns: 1fr; /* -ms-grid-column-align?? check compat */
+  align-items: center;
+  justify-items: center; 
+ }
+
