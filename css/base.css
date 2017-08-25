@@ -68,6 +68,7 @@ footer {
   font-family: var(--displayText);
   font-size: 1vw;
   text-align: center;
+  padding: 5px 0 5px 0;
 }
 
 
